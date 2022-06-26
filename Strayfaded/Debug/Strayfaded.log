@@ -1,0 +1,9 @@
+﻿LINK : warning LNK4075: /INCREMENTAL wird aufgrund der Angabe von /FORCE ignoriert.
+DirectX.obj : warning LNK4006: "class USettings Settings" (?Settings@@3VUSettings@@A) ist bereits in "Bhop.obj" definiert; zweite Definition wird ignoriert.
+dllmain.obj : warning LNK4006: "class USettings Settings" (?Settings@@3VUSettings@@A) ist bereits in "Bhop.obj" definiert; zweite Definition wird ignoriert.
+Drawing.obj : warning LNK4006: "class USettings Settings" (?Settings@@3VUSettings@@A) ist bereits in "Bhop.obj" definiert; zweite Definition wird ignoriert.
+Engine.obj : warning LNK4006: "class USettings Settings" (?Settings@@3VUSettings@@A) ist bereits in "Bhop.obj" definiert; zweite Definition wird ignoriert.
+Hook.obj : warning LNK4006: "class USettings Settings" (?Settings@@3VUSettings@@A) ist bereits in "Bhop.obj" definiert; zweite Definition wird ignoriert.
+Localplayer.obj : warning LNK4006: "class USettings Settings" (?Settings@@3VUSettings@@A) ist bereits in "Bhop.obj" definiert; zweite Definition wird ignoriert.
+C:\Users\Justin\Desktop\trash\CSGO-Base-main\Debug\DLL.dll : warning LNK4088: Image wird aufgrund der Option /FORCE generiert; Image kann möglicherweise nicht ausgeführt werden.
+  Strayfaded.vcxproj -> C:\Users\Justin\Desktop\trash\CSGO-Base-main\Debug\DLL.dll

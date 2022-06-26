@@ -1,0 +1,24 @@
+﻿  DirectX.cpp
+  dllmain.cpp
+  Drawing.cpp
+C:\Users\Justin\Desktop\trash\CSGO-Base-main\Strayfaded\Drawing.cpp(14,28): warning C4244: "Argument": Konvertierung von "int" in "FLOAT", möglicher Datenverlust
+C:\Users\Justin\Desktop\trash\CSGO-Base-main\Strayfaded\Drawing.cpp(14,24): warning C4244: "Argument": Konvertierung von "int" in "FLOAT", möglicher Datenverlust
+C:\Users\Justin\Desktop\trash\CSGO-Base-main\Strayfaded\Drawing.cpp(15,28): warning C4244: "Argument": Konvertierung von "int" in "FLOAT", möglicher Datenverlust
+C:\Users\Justin\Desktop\trash\CSGO-Base-main\Strayfaded\Drawing.cpp(15,24): warning C4244: "Argument": Konvertierung von "int" in "FLOAT", möglicher Datenverlust
+C:\Users\Justin\Desktop\trash\CSGO-Base-main\Strayfaded\Drawing.cpp(17,18): warning C4244: "Argument": Konvertierung von "int" in "FLOAT", möglicher Datenverlust
+  Hook.cpp
+  imgui.cpp
+  imgui_demo.cpp
+  imgui_draw.cpp
+  imgui_impl_dx9.cpp
+  imgui_impl_win32.cpp
+  imgui_widgets.cpp
+  Code wird generiert...
+DirectX.obj : error LNK2019: Verweis auf nicht aufgelöstes externes Symbol "Direct3DCreate9" in Funktion ""bool __cdecl GetD3D9Device(void * *,unsigned __int64)" (?GetD3D9Device@@YA_NPEAPEAX_K@Z)".
+Drawing.obj : error LNK2019: Verweis auf nicht aufgelöstes externes Symbol "D3DXCreateLine" in Funktion ""void __cdecl DrawLine(int,int,int,int,int,bool,unsigned long)" (?DrawLine@@YAXHHHHH_NK@Z)".
+imgui_impl_win32.obj : error LNK2019: Verweis auf nicht aufgelöstes externes Symbol "XInputGetState" in Funktion ""void __cdecl ImGui_ImplWin32_UpdateGamepads(void)" (?ImGui_ImplWin32_UpdateGamepads@@YAXXZ)".
+imgui_impl_win32.obj : error LNK2019: Verweis auf nicht aufgelöstes externes Symbol "XInputGetCapabilities" in Funktion ""void __cdecl ImGui_ImplWin32_UpdateGamepads(void)" (?ImGui_ImplWin32_UpdateGamepads@@YAXXZ)".
+C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Lib\x86\d3d9.lib : warning LNK4272: Bibliothekcomputertyp "x86" steht in Konflikt mit dem Zielcomputertyp "x64"
+C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Lib\x86\d3dx9.lib : warning LNK4272: Bibliothekcomputertyp "x86" steht in Konflikt mit dem Zielcomputertyp "x64"
+C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Lib\x86\xinput.lib : warning LNK4272: Bibliothekcomputertyp "x86" steht in Konflikt mit dem Zielcomputertyp "x64"
+C:\Users\Justin\Desktop\trash\CSGO-Base-main\x64\Debug\DLL.dll : fatal error LNK1120: 4 nicht aufgelöste Externe
